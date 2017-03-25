@@ -22,7 +22,7 @@ app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'ui/madi.png'));
 });
 
-app.get('/ui/register.html', function (req, res) {
+app.get('register.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'ui/register.html'));
 });
 
